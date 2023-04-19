@@ -10,8 +10,10 @@ function App() {
   const [allArticles, setAllArticles] = useState([])
   const [curValue, setCurValue] = useState('home')
   const fetchData = (filter) => {
-    setAllArticles([])
-    fetchArticles(filter).then(data => setAllArticles(data.results)) 
+    if(allArticles.length) { setAllArticles([]) }
+    fetchArticles(filter).then(data => 
+      setAllArticles(data.results.filter(art => art.title))
+    ) 
   }
 
   console.log(allArticles)
