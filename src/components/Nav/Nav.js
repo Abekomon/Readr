@@ -13,7 +13,7 @@ export default function Nav({fetchData}) {
 
   useEffect(() => {
     fetchData(curValue)
-  }, [curValue])
+  }, [curValue, fetchData])
 
 
   return (
