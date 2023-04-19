@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import ArticleGrid from '../ArticleGrid/ArticleGrid';
 import Nav from '../Nav/Nav';
 import fetchArticles from '../../apiCalls';
+import Loader from '../ArticleGrid/Loader';
 
 function App() {
   const [allArticles, setAllArticles] = useState([])
@@ -19,9 +20,10 @@ function App() {
       </header>
       <Nav fetchData={fetchData} />
       <Switch>
-        <Route exact path="/" render={() => (
-            <ArticleGrid articles={allArticles} />
-        )}/>
+        <Route exact path="/" render={() => {
+              return !allArticles.length ? <Loader /> :
+              <ArticleGrid articles={allArticles} />
+            }}/>
         <Route exact path='/error' render={() => (
             <h3>Something went wrong!</h3>
           )} 
