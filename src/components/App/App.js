@@ -11,10 +11,6 @@ function App() {
     fetchArticles(filter).then(data => setAllArticles(data.results)) 
   }
 
-  useEffect(() => {
-    fetchData('home')
-  }, [])
-
   console.log(allArticles)
   return (
     <>
