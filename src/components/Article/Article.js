@@ -6,11 +6,12 @@ export default function Article({ data }) {
   let url = '', altText = 'No image available'
   if(multimedia) { url = multimedia[1].url; altText = title }
   return (
-    <a className='card-link' href={short_url}>
-      <div className="card">
+    <div className='card'>
+      <button className='details-button'>See Article Details</button>
+      <a className='card-link' href={short_url}>
         <img src={url} alt={altText} />
         <p>{title}</p>
-      </div>
-    </a>
+      </a>
+    </div>
   )
 }
