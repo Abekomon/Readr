@@ -8,17 +8,21 @@ import Loader from '../ArticleGrid/Loader';
 
 function App() {
   const [allArticles, setAllArticles] = useState([])
+  const [curValue, setCurValue] = useState('home')
   const fetchData = (filter) => {
+    setAllArticles([])
     fetchArticles(filter).then(data => setAllArticles(data.results)) 
   }
 
   console.log(allArticles)
   return (
     <>
-      <header>
-
-      </header>
-      <Nav fetchData={fetchData} />
+      <h1 className="logo">Readr</h1>
+      <Nav 
+        curValue={curValue}
+        setCurValue={setCurValue} 
+        fetchData={fetchData} 
+      />
       <Switch>
         <Route exact path="/" render={() => {
               return !allArticles.length ? <Loader /> :
