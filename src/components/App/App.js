@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ArticleGrid from '../ArticleGrid/ArticleGrid';
 import Nav from '../Nav/Nav';
 import fetchArticles from '../../apiCalls';
@@ -24,10 +24,10 @@ function App() {
         fetchData={fetchData} 
       />
       <Switch>
-        <Route exact path="/" render={() => {
-              return !allArticles.length ? <Loader /> :
-              <ArticleGrid articles={allArticles} />
-            }}/>
+        <Route exact path="/" render={() => (
+            !allArticles.length ? <Loader /> :
+            <ArticleGrid title={curValue} articles={allArticles} />
+          )}/>
         <Route exact path='/error' render={() => (
             <h3>Something went wrong!</h3>
           )} 
