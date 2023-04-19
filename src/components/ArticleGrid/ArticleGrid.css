@@ -4,7 +4,8 @@ h2 {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 5px 25px 20px;
+  background: forestgreen;
 }
