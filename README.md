@@ -110,8 +110,4 @@ See the [open issues](https://github.com/Abekomon/Readr/issues).
 [github]: https://img.shields.io/badge/GitHub-22043C?style=for-the-badge&logo=github&logoColor=FF3E00
 [github-url]: https://github.com/
 [git]: https://img.shields.io/badge/Git-2E0305?style=for-the-badge&logo=git&logoColor=FF3E00
-<<<<<<< HEAD
 [git-url]: https://git-scm.com/
-=======
-[git-url]: https://git-scm.com/
->>>>>>> 9545169230c0a2c85d106068976c943dbe6742bf
