@@ -22,7 +22,16 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  transition: all .4s ease-in-out;
+  padding: 1%;
+}
+
+.modal-info h3 {
+  margin-bottom: 0;
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 .exit-button {
