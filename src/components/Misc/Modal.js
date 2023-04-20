@@ -17,9 +17,9 @@ export default function Modal({isOpen, data, updateModal}) {
         <p>{abstract}</p>
         <div className="info-box">
           <p>{byline}</p>
-          <p>{`Published at ${dayjs(published_date).format('h A, MMM DD (EST)')}`}</p>
+          <p>{`Published at ${dayjs(published_date).format('h A, MMM DD, YYYY (EST)')}`}</p>
         </div>
-        <a href={short_url}>{"See Full Article >>"}</a>
+        <a className="det-link" href={short_url}>{"See Full Article >>"}</a>
       </div>
     </div>
   )
