@@ -4,7 +4,7 @@ import { useState } from 'react';
 import ArticleGrid from '../ArticleGrid/ArticleGrid';
 import Nav from '../Nav/Nav';
 import fetchArticles from '../../apiCalls';
-import Loader from '../ArticleGrid/Loader';
+import Loader from '../Misc/Loader';
 
 function App() {
   const [allArticles, setAllArticles] = useState([])
