@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 import { useState } from 'react';
 import ArticleGrid from '../ArticleGrid/ArticleGrid';
 import Nav from '../Nav/Nav';
@@ -30,8 +30,11 @@ function App() {
             !allArticles.length ? <Loader /> :
             <ArticleGrid title={curValue} articles={allArticles} />
           )}/>
-        <Route exact path='/error' render={() => (
-            <h3>Something went wrong!</h3>
+        <Route render={() => (
+            <div className="error">
+              <Link to="/" className="home-link">{'<< Back to home'}</Link>
+              <h3>Oops, we can't seem to find that!</h3>
+            </div>
           )} 
         />
       </Switch>

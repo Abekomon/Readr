@@ -1,5 +1,6 @@
 h2 {
   padding-left: 20px;
+  width: 60%;
 }
 
 .container {
@@ -8,5 +9,4 @@ h2 {
   gap: 15px auto;
   flex-wrap: wrap;
   padding: 5px 25px 20px;
-  background: forestgreen;
 }

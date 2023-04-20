@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import "./Misc.css"
 
 export default function Loader() {
   return (
