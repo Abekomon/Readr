@@ -40,6 +40,10 @@
 
 ## About The Project
 
+
+https://user-images.githubusercontent.com/113847222/233478407-a42145e1-8a95-4672-add9-9272096c334e.mp4
+
+
 For this take home challenge, I was tasked with making an app that calls upon the NY Times article API, and allow users to browse articles, view a 'detailed' description of each article, and allow the user to go to the actual NY Times page to view them. I went with a simple design that allows users to browse/filter by article type, and when clicked on, an article opens a modal that displays a brief abstract about the article, as well as a link to view it on the NY Times website.
 
 
