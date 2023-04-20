@@ -47,6 +47,10 @@
   color: rgb(184, 1, 1);
 }
 
+.det-link {
+  font-size: 25px;
+}
+
 .hidden {
   display: none;
 }
