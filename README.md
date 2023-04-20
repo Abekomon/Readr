@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contributors
+ [![Max][Max-badge]][Max-url]
 
-## Available Scripts
+<br />
 
-In the project directory, you can run:
+<h1 align="center">Readr</h1>
+<h3 align="center"><a href="https://readr-six.vercel.app/">Visit the deployed page</a></h3>
 
-### `npm start`
+  <p align="center">
+    New York Times Article Browser App
+    <br />
+    <a href="https://github.com/Abekomon/Readr"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Abekomon/Readr/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Abekomon/Readr/issues">Request Feature</a>
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+For this take home challenge, I was tasked with making an app that calls upon the NY Times article API, and allow users to browse articles, view a 'detailed' description of each article, and allow the user to go to the actual NY Times page to view them. I went with a simple design that allows users to browse/filter by article type, and when clicked on, an article opens a modal that displays a brief abstract about the article, as well as a link to view it on the NY Times website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+</br>
+</br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
+- [![React][React]][react-url] 
+- [![Javascript][javascript.js]][javascript-url]
+- [![CSS][css]][css-url]
+- [![HTML][html]][html-url]
+- [![Day.js][dayjs]][dayjs-url]
+- [![API][api]][api-url]
+- [![Git][git]][git-url]
+- [![GitHub][github]][github-url]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Visit the Deployed page at this link: [Deployed Page](https://readr-six.vercel.app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-- OR --
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the Repo from the [Repository](https://github.com/Abekomon/Readr)
+2. Clone the repo
+   ```sh
+   git@github.com:Abekomon/Readr.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Run npm start
+   ```sh
+   npm start
+   ```
+5. Use the Link that is given in the Terminal & Open in Browser
+   ```sh
+   Example: http://localhost:3000/
+   ```
+6. Once finished, close using control + c
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+See the [open issues](https://github.com/Abekomon/Readr/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Max-badge]: https://img.shields.io/badge/-Max%20Lange-green
+[Max-url]: https://github.com/Abekomon
+[React]: https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge
+[react-url]: https://reactjs.org/
+[dayjs]: https://img.shields.io/badge/-dayjs-fb6052?style=for-the-badge
+[dayjs-url]: https://www.npmjs.com/package/dayjs
+[css]: https://img.shields.io/badge/CSS-000000?style=for-the-badge&logo=css&logoColor=white
+[css-url]: https://www.w3.org/Style/CSS/Overview.en.html
+[html]: https://img.shields.io/badge/HTML-4A4A55?style=for-the-badge&logo=HTML&logoColor=FF3E00
+[html-url]: https://www.w3schools.com/howto/howto_make_a_website.asp
+[javascript.js]: https://img.shields.io/badge/JavaScript-0769AD?style=for-the-badge&logo=javascript&logoColor=white
+[javascript-url]: https://www.javascript.com/
+[api]: https://img.shields.io/badge/API-15EA75?style=for-the-badge&logo=HTML&logoColor=FF3E00
+[api-url]: https://www.w3schools.com/js/js_api_intro.asp
+[github]: https://img.shields.io/badge/GitHub-22043C?style=for-the-badge&logo=github&logoColor=FF3E00
+[github-url]: https://github.com/
+[git]: https://img.shields.io/badge/Git-2E0305?style=for-the-badge&logo=git&logoColor=FF3E00
+[git-url]: https://git-scm.com/
