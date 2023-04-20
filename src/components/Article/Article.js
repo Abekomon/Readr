@@ -7,8 +7,7 @@ export default function Article({ data, updateModal}) {
   if(multimedia) { url = multimedia[1].url; altText = title }
   return (
     <div className='card'>
-      <button className='details-button' onClick={() => updateModal(data, true)} >See Article Details</button>
-      <a className='card-link' href={short_url}>
+      <a className='card-link' onClick={() => updateModal(data, true)}>
         <img src={url} alt={altText} />
         <p>{title}</p>
       </a>
