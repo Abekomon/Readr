@@ -40,11 +40,26 @@
 
 ## About The Project
 
-
-https://user-images.githubusercontent.com/113847222/233478407-a42145e1-8a95-4672-add9-9272096c334e.mp4
-
+</br>
 
 For this take home challenge, I was tasked with making an app that calls upon the NY Times article API, and allow users to browse articles, view a 'detailed' description of each article, and allow the user to go to the actual NY Times page to view them. I went with a simple design that allows users to browse/filter by article type, and when clicked on, an article opens a modal that displays a brief abstract about the article, as well as a link to view it on the NY Times website.
+
+</br>
+
+To plan out my project, I drew a quick mockup in excalidraw, along with an expected component architecture
+
+![Planning1](https://user-images.githubusercontent.com/113847222/233678142-b4ac8ec9-59c8-49e6-820f-3a6b53efff86.png)
+![planning2](https://user-images.githubusercontent.com/113847222/233678144-28a54e38-fee6-4dd7-b34c-f8b28bb44dc2.png)
+![planning3](https://user-images.githubusercontent.com/113847222/233678146-aa1aed66-eff4-4b34-9a9f-ef7130d4cdc8.png)
+![Planning4](https://user-images.githubusercontent.com/113847222/233678148-123adaaa-afc5-487e-998f-3876feaad76d.png)
+
+</br>
+
+Here is a video of the finished product
+
+</br>
+
+https://user-images.githubusercontent.com/113847222/233478407-a42145e1-8a95-4672-add9-9272096c334e.mp4
 
 
 </br>
