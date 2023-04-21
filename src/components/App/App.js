@@ -16,7 +16,6 @@ function App() {
     ) 
   }
 
-  console.log(allArticles)
   return (
     <>
       <h1 className="logo">Readr</h1>

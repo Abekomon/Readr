@@ -1,0 +1,67 @@
+{
+  "status": "OK",
+  "results": [
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "‘A Quick Death or a Slow Death’: Prisoners Choose War to Get Lifesaving Drugs",
+      "abstract": "An estimated 20 percent of Russia prisoner recruits are H.I.V. positive. To some, the front lines seemed less risky than prisons where they said they were denied effective treatments.",
+      "url": "https://www.nytimes.com/2023/04/21/world/europe/russia-wagner-group-hiv-prisoners-ukraine.html",
+      "uri": "nyt://article/c21b2747-33d9-5411-be23-a24c2c4f579b",
+      "byline": "By Andrew E. Kramer",
+      "item_type": "Article",
+      "updated_date": "2023-04-21T10:31:10-04:00",
+      "created_date": "2023-04-21T05:00:24-04:00",
+      "published_date": "2023-04-21T05:00:24-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+      "Russian Invasion of Ukraine (2022)",
+      "Acquired Immune Deficiency Syndrome",
+      "Mercenaries and Private Military Contractors",
+      "Prisoners of War"
+      ],
+      "org_facet": [
+      "Wagner Group"
+      ],
+      "per_facet": [ ],
+      "geo_facet": [
+      "Ukraine",
+      "Russia"
+      ],
+      "multimedia": [
+      {
+      "url": "https://static01.nyt.com/images/2023/04/21/multimedia/21ukraine-wagner-01-vlfq/21ukraine-wagner-01-vlfq-superJumbo.jpg",
+      "format": "Super Jumbo",
+      "height": 1367,
+      "width": 2048,
+      "type": "image",
+      "subtype": "photo",
+      "caption": "Russian prisoners were recruited to fight in the war against Ukraine, many of them offered pardons and a promise of anti-viral medications if they agreed to fight.",
+      "copyright": "Nicole Tung for The New York Times"
+      },
+      {
+      "url": "https://static01.nyt.com/images/2023/04/21/multimedia/21ukraine-wagner-01-vlfq/21ukraine-wagner-01-vlfq-threeByTwoSmallAt2X.jpg",
+      "format": "threeByTwoSmallAt2X",
+      "height": 400,
+      "width": 600,
+      "type": "image",
+      "subtype": "photo",
+      "caption": "Russian prisoners were recruited to fight in the war against Ukraine, many of them offered pardons and a promise of anti-viral medications if they agreed to fight.",
+      "copyright": "Nicole Tung for The New York Times"
+      },
+      {
+      "url": "https://static01.nyt.com/images/2023/04/21/multimedia/21ukraine-wagner-01-vlfq/21ukraine-wagner-01-vlfq-thumbLarge.jpg",
+      "format": "Large Thumbnail",
+      "height": 150,
+      "width": 150,
+      "type": "image",
+      "subtype": "photo",
+      "caption": "Russian prisoners were recruited to fight in the war against Ukraine, many of them offered pardons and a promise of anti-viral medications if they agreed to fight.",
+      "copyright": "Nicole Tung for The New York Times"
+      }
+      ],
+      "short_url": "https://nyti.ms/3mSetme"
+    }
+  ]
+}

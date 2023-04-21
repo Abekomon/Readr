@@ -1,0 +1,62 @@
+{
+  "status": "OK",
+  "results": [
+    {
+      "section": "books",
+      "subsection": "review",
+      "title": "A Couple’s Retreat in the Woods Goes Awry in This Thriller",
+      "abstract": "In “The Eden Test,” Adam Sternbergh folds a study of marital psychology into a mystery plot.",
+      "url": "https://www.nytimes.com/2023/04/21/books/review/adam-sternbergh-eden-test.html",
+      "uri": "nyt://article/dfe902da-f648-5be1-aadb-85cd0e5dac79",
+      "byline": "By Flynn Berry",
+      "item_type": "Article",
+      "updated_date": "2023-04-21T11:48:17-04:00",
+      "created_date": "2023-04-21T09:09:02-04:00",
+      "published_date": "2023-04-21T09:09:02-04:00",
+      "material_type_facet": "",
+      "kicker": "Fiction",
+      "des_facet": [
+      "Books and Literature",
+      "The Eden Test (Book)"
+      ],
+      "org_facet": [ ],
+      "per_facet": [
+      "Sternbergh, Adam"
+      ],
+      "geo_facet": [ ],
+      "multimedia": [
+      {
+      "url": "https://static01.nyt.com/images/2023/05/14/books-review/25Sternbergh-Kalorkoti/18Argy-Kalorkoti-superJumbo.jpg",
+      "format": "Super Jumbo",
+      "height": 1566,
+      "width": 2025,
+      "type": "image",
+      "subtype": "photo",
+      "caption": "",
+      "copyright": "Eleni Kalorkoti"
+      },
+      {
+      "url": "https://static01.nyt.com/images/2023/05/14/books-review/25Sternbergh-Kalorkoti/18Argy-Kalorkoti-threeByTwoSmallAt2X.jpg",
+      "format": "threeByTwoSmallAt2X",
+      "height": 400,
+      "width": 600,
+      "type": "image",
+      "subtype": "photo",
+      "caption": "",
+      "copyright": "Eleni Kalorkoti"
+      },
+      {
+      "url": "https://static01.nyt.com/images/2023/05/14/books-review/25Sternbergh-Kalorkoti/18Argy-Kalorkoti-thumbLarge.jpg",
+      "format": "Large Thumbnail",
+      "height": 150,
+      "width": 150,
+      "type": "image",
+      "subtype": "photo",
+      "caption": "",
+      "copyright": "Eleni Kalorkoti"
+      }
+      ],
+      "short_url": "https://nyti.ms/40BllSU"
+    }
+  ]
+}
